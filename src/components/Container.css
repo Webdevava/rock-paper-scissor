@@ -1,0 +1,43 @@
+body{
+    background-color: #ECE5C7;
+    font-family: monospace;
+}
+
+.container{
+    width: fit-content;
+    background-color: #4091d3;
+    border: 2px solid #333;
+    margin: 5em auto;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 4px 4px 0px #333;
+}
+
+.icons{
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    font-size: 200%;
+    background-color: #e6ad4c;
+    border: 2px solid #333;
+    border-radius: 6px;
+    box-shadow: 4px 4px 0px #333;
+}
+
+button:active{
+    box-shadow: 2px 2px 0px #333;
+    background-color: #E8AA42;
+}
+
+.stats p {
+    text-align: left;
+ 
+    font-size: 16px;
+}
