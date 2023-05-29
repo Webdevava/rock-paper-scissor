@@ -1,43 +1,92 @@
-body{
-    background-color: #ECE5C7;
-    font-family: monospace;
+body {
+  background: linear-gradient(45deg, #ec994b, #8d9eff, #ffcbcb);
+  background-size: 400% 400%;
+  font-family: monospace;
+  animation: animate 20s infinite ease-in-out;
 }
 
-.container{
-    width: fit-content;
-    background-color: #4091d3;
-    border: 2px solid #333;
-    margin: 5em auto;
+@keyframes animate {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.container {
+  width: fit-content;
+  background-color: #4091d3;
+  vertical-align: middle;
+  border: 2px solid #333;
+  margin: 10em auto;
+  justify-content: center;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 4px 4px 0px #333;
+}
+
+.icons {
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icon {
+  margin: 10px;
+  padding: 10px;
+  font-size: 200%;
+  background-color: #e6ad4c;
+  border: 2px solid #333;
+  border-radius: 6px;
+  box-shadow: 4px 4px 0px #333;
+}
+
+.icon:active{
+  box-shadow: 2px 2px 0px #333;
+  background-color: #e9cf79;
+}
+
+.submit,
+.count {
+  font-size: 16px;
+  font-weight: 600;
+  width: max-content;
+  margin: auto;
+  padding: 6px;
+  background-color: #6d41d3;
+  border: 2px solid #333;
+  border-radius: 6px;
+  box-shadow: 4px 4px 0px #333;
+}
+.submit:active{
+    box-shadow: 2px 2px 0px #333;
+    background-color: #8667cf;
+}
+
+.stats p {
+  text-align: left;
+  font-size: 16px;
+}
+
+@media (max-width: 50em) {
+  .icon {
+    margin: 6px;
+    padding: 6px;
+    font-size: 150%;
+  }
+  .container {
     justify-content: center;
+    vertical-align: middle;
     padding: 20px;
     align-items: center;
     text-align: center;
     border-radius: 12px;
     box-shadow: 4px 4px 0px #333;
-}
-
-.icons{
-    align-items: center;
-    text-align: center;
-}
-
-button{
-    margin: 10px;
-    padding: 10px;
-    font-size: 200%;
-    background-color: #e6ad4c;
-    border: 2px solid #333;
-    border-radius: 6px;
-    box-shadow: 4px 4px 0px #333;
-}
-
-button:active{
-    box-shadow: 2px 2px 0px #333;
-    background-color: #E8AA42;
-}
-
-.stats p {
-    text-align: left;
- 
-    font-size: 16px;
+  }
 }
