@@ -42,9 +42,9 @@ This is a simple rock-paper-scissors game built with React.
 
 - React
 
-## Screenshots
+## Demo
 
-![Game Screenshot](./screenshots/game.png)
+![Live Demo](https://rock-paper-scissor-webdevava.vercel.app/)
 
 ## Session Storage
 
@@ -54,9 +54,4 @@ The game uses session storage to store the score. This allows the score to persi
 
 The game displays the player's choice and the computer's choice. After making a selection, the chosen option is displayed on the screen. The computer's choice is randomly generated each time.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
-```
-
-Remember to update the paths and filenames in the README.md file according to your project's structure and any specific screenshots you have.
