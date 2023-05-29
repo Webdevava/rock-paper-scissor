@@ -44,7 +44,7 @@ This is a simple rock-paper-scissors game built with React.
 
 ## Demo
 
-![Live Demo](https://rock-paper-scissor-webdevava.vercel.app/)
+[Live Demo](https://rock-paper-scissor-webdevava.vercel.app/)
 
 ## Session Storage
 
