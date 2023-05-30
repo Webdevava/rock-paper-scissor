@@ -1,8 +1,7 @@
 body {
-  background: linear-gradient(45deg, #ec994b, #8d9eff, #ffcbcb);
+  background: linear-gradient(45deg, #B6E388, #A7D2CB, #E893CF);
   background-size: 400% 400%;
-  font-family: monospace;
-  animation: animate 20s infinite ease-in-out;
+  animation: animate 10s infinite ease-in-out;
 }
 
 @keyframes animate {
@@ -19,16 +18,16 @@ body {
 
 .container {
   width: fit-content;
-  background-color: #4091d3;
+  background-color: #FF6969;
   vertical-align: middle;
-  border: 2px solid #333;
-  margin: 10em auto;
+  border: 2px solid #3C486B;
+  margin:auto;
   justify-content: center;
   padding: 15px;
   align-items: center;
   text-align: center;
   border-radius: 12px;
-  box-shadow: 4px 4px 0px #333;
+  box-shadow: 4px 4px 0px #3C486B;
 }
 
 .icons {
@@ -42,37 +41,36 @@ body {
   padding: 10px;
   font-size: 200%;
   background-color: #e6ad4c;
-  border: 2px solid #333;
+  border: 2px solid #3C486B;
   border-radius: 6px;
-  box-shadow: 4px 4px 0px #333;
+  box-shadow: 4px 4px 0px #3C486B;
 }
 
 .icon:active{
-  box-shadow: 2px 2px 0px #333;
+  box-shadow: 2px 2px 0px #3C486B;
   background-color: #e9cf79;
 }
+.icon:disabled{
+  box-shadow: 2px 2px 0px #3C486B;
+  background-color: #e9d9a5;
+}
 
-.submit,
-.count {
-  font-size: 16px;
-  font-weight: 600;
+
+.submit{
+  font-size: 14px;
   width: max-content;
   margin: auto;
   padding: 6px;
   background-color: #6d41d3;
   border: 2px solid #333;
   border-radius: 6px;
-  box-shadow: 4px 4px 0px #333;
+  box-shadow: 2px 2px 0px #3C486B;
 }
 .submit:active{
-    box-shadow: 2px 2px 0px #333;
+    box-shadow: 1px 1px 0px #3C486B;
     background-color: #8667cf;
 }
 
-.stats p {
-  text-align: left;
-  font-size: 16px;
-}
 
 @media (max-width: 50em) {
   .icon {
@@ -87,6 +85,6 @@ body {
     align-items: center;
     text-align: center;
     border-radius: 12px;
-    box-shadow: 4px 4px 0px #333;
+    box-shadow: 4px 4px 0px #3C486B;
   }
 }

@@ -2,6 +2,10 @@ h1 {
   text-align: center;
   font-size: 3em;
   letter-spacing: 5px;
+  font-family: "Luckiest Guy", cursive;
+  margin-bottom: 2.5em;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
 }
 
 @media (max-width: 50em) {
@@ -25,5 +29,5 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #DB2D43;
+  color: #db2d43;
 }
