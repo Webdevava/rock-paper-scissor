@@ -55,3 +55,5 @@ The game uses session storage to store the score. This allows the score to persi
 The game displays the player's choice and the computer's choice. After making a selection, the chosen option is displayed on the screen. The computer's choice is randomly generated each time.
 
 
+please colaborate 
+
